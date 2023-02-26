@@ -1,0 +1,27 @@
+{
+  "name": "jwt_auth",
+  "version": "1.0.0",
+  "description": "JWT authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "JWT",
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Tejas",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
